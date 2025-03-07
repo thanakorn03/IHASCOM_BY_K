@@ -1,0 +1,10 @@
+{
+  "homepage": "https://github.com/thanakorn03/IHASCOM_BY_K.git",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
